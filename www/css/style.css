@@ -1,0 +1,11 @@
+#photo-id{
+    text-align: center;
+}
+#photo-id .icon-padding-text{
+    padding: 20px;
+}
+
+#photo-id .button-icon-text-style{
+    font-size: 20px;
+    color: #4cd964;
+}

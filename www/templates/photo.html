@@ -1,0 +1,20 @@
+<ion-view view-title="Cordova Photo">
+    <ion-nav-buttons side="right">
+        <button class="button button-icon icon-left" ng-click="addAttachment()"><span
+                class="icon ion-ios-photos ">Take Photo</span></button>
+    </ion-nav-buttons>
+    <ion-header-bar>
+        <!--当期页面的标题栏区域-->
+    </ion-header-bar>
+    <ion-content class="has-header" id="photo-id">
+        <!--当前页面的内容区域-->
+        <!--<button class="button button-icon icon-left button-icon-text-style" ng-click="photo()"-->
+                <!--ng-style="{marginTop:'20px'}"><span class="icon ion-ios-photos icon-padding-text">Take Photo</span>-->
+        <!--</button>-->
+        <!--<br>-->
+        <img src="{{imgsrc}}}" id="picture-alubum" ng-style="{marginTop:'40px'}">
+    </ion-content>
+    <ion-footer-bar>
+        <!--当期界面的底部区域-->
+    </ion-footer-bar>
+</ion-view>
